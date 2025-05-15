@@ -18,8 +18,14 @@ Console.ReadLine();
 //Task-3 
 Console.WriteLine("Task -3");
 Console.WriteLine("First 4 passing grades:");
-var grades = new List<int> { 55, 78, 45, 82, 90, 67, 58, 85 };
-var result3 = grades.Where(g => g >= 60).Take(4).Select(g => new { Grade = g });
+var grades1 = new List<int> { 55, 78, 45, 82, 90, 67, 58, 85 };
+var result3 = grades1.Where(g => g >= 60).Take(4).Select(g => new { Grade = g });
 foreach (var g in result3)
     Console.Write(g);
 Console.ReadLine();
+
+//Task -4
+Console.WriteLine("Task -4");
+List<int> grades2 = [45, 78, 92, 55, 85, 60, 72, 88];
+
+
