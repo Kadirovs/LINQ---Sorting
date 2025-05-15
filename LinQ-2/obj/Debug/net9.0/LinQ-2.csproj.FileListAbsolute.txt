@@ -12,3 +12,4 @@ C:\Users\kadir\Desktop\LinQ-2\LinQ-2\obj\Debug\net9.0\refint\LinQ-2.dll
 C:\Users\kadir\Desktop\LinQ-2\LinQ-2\obj\Debug\net9.0\LinQ-2.pdb
 C:\Users\kadir\Desktop\LinQ-2\LinQ-2\obj\Debug\net9.0\LinQ-2.genruntimeconfig.cache
 C:\Users\kadir\Desktop\LinQ-2\LinQ-2\obj\Debug\net9.0\ref\LinQ-2.dll
+C:\Users\kadir\Desktop\LinQ-2\LinQ-2\obj\Debug\net9.0\LinQ-2.sourcelink.json

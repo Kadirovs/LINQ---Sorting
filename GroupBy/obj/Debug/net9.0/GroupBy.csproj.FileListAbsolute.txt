@@ -1,0 +1,15 @@
+C:\Users\kadir\Desktop\LinQ-2\GroupBy\bin\Debug\net9.0\GroupBy.exe
+C:\Users\kadir\Desktop\LinQ-2\GroupBy\bin\Debug\net9.0\GroupBy.deps.json
+C:\Users\kadir\Desktop\LinQ-2\GroupBy\bin\Debug\net9.0\GroupBy.runtimeconfig.json
+C:\Users\kadir\Desktop\LinQ-2\GroupBy\bin\Debug\net9.0\GroupBy.dll
+C:\Users\kadir\Desktop\LinQ-2\GroupBy\bin\Debug\net9.0\GroupBy.pdb
+C:\Users\kadir\Desktop\LinQ-2\GroupBy\obj\Debug\net9.0\GroupBy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kadir\Desktop\LinQ-2\GroupBy\obj\Debug\net9.0\GroupBy.AssemblyInfoInputs.cache
+C:\Users\kadir\Desktop\LinQ-2\GroupBy\obj\Debug\net9.0\GroupBy.AssemblyInfo.cs
+C:\Users\kadir\Desktop\LinQ-2\GroupBy\obj\Debug\net9.0\GroupBy.csproj.CoreCompileInputs.cache
+C:\Users\kadir\Desktop\LinQ-2\GroupBy\obj\Debug\net9.0\GroupBy.sourcelink.json
+C:\Users\kadir\Desktop\LinQ-2\GroupBy\obj\Debug\net9.0\GroupBy.dll
+C:\Users\kadir\Desktop\LinQ-2\GroupBy\obj\Debug\net9.0\refint\GroupBy.dll
+C:\Users\kadir\Desktop\LinQ-2\GroupBy\obj\Debug\net9.0\GroupBy.pdb
+C:\Users\kadir\Desktop\LinQ-2\GroupBy\obj\Debug\net9.0\GroupBy.genruntimeconfig.cache
+C:\Users\kadir\Desktop\LinQ-2\GroupBy\obj\Debug\net9.0\ref\GroupBy.dll
