@@ -265,6 +265,7 @@ var result20 = prices2
     .GroupBy(x => x.index / 4)
     .Take(2);
 Console.WriteLine("Task -20 Output:");
+Console.WriteLine("Hello World!");
 foreach (var page in result20)
 {
     var total = page.Sum(x => x.value);
