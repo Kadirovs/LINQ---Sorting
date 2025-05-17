@@ -107,6 +107,10 @@ var result8 = orders
 
 Console.WriteLine("Task 8 Output:");
 foreach (var item in result8)
-{
     Console.WriteLine($"{item.Month:MMMM yyyy}: {item.Total}");
-}
+Console.ReadLine();
+
+//Task -9
+Console.WriteLine("Task -9");
+
+
