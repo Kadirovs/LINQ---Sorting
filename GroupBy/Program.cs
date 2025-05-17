@@ -107,6 +107,166 @@ var result8 = orders
 
 Console.WriteLine("Task 8 Output:");
 foreach (var item in result8)
-{
     Console.WriteLine($"{item.Month:MMMM yyyy}: {item.Total}");
+Console.ReadLine();
+
+//Task -9
+Console.WriteLine("Task -9");
+List<int> transactions = [50, 100, 150, 200, 250, 300, 350, 400];
+
+Console.ReadLine();
+
+//Task -10
+Console.WriteLine("Task -10");
+List<Product> products =
+[
+    new Product { Category = "Electronics", Price = 500 },
+    new Product { Category = "Clothing", Price = 50 },
+    new Product { Category = "Electronics", Price = 700 },
+    new Product { Category = "Books", Price = 20 },
+    new Product { Category = "Clothing", Price = 80 }
+];
+
+var result10 = products
+    .GroupBy(p => p.Category)
+    .Where(g => g.Count() >= 2)
+    .Select(g => new { Product = g.Key, MaxPrice = g.Max(p => p.Price) });
+Console.Write("Max price of products in each category:");    
+foreach (var item in result10)
+    Console.WriteLine($"{item.Product}: {item.MaxPrice}");
+Console.ReadLine();
+
+//Task- 11
+Console.WriteLine("Task -11");
+List<int> ages = [15, 70, 25, 68, 17, 66, 30];
+var result11 = ages
+    .Where(a => a >= 65)
+    .Take(3)
+    .ToList();
+Console.WriteLine("First 3 ages >= 65:");
+result11.ForEach(Console.WriteLine);
+Console.ReadLine();
+
+//Task -12
+Console.WriteLine("Task -12");
+List<Player> players =
+[
+    new Player { Team = "Red", Score = 10 },
+    new Player { Team = "Blue", Score = 15 },
+    new Player { Team = "Red", Score = 20 },
+    new Player { Team = "Blue", Score = 25 },
+    new Player { Team = "Green", Score = 30 }
+];
+var result12 = players
+    .GroupBy(p => p.Team)
+    .Where(g => g.Count() >= 2)
+    .ToDictionary(g => g.Key, g => g.Sum(p => p.Score));
+foreach (var item in result12)
+    Console.WriteLine($"{item.Key}: {item.Value}");
+Console.ReadLine();
+
+//Task -13
+Console.WriteLine("Task -13");
+List<int> donations = [100, 200, 300, 400, 500, 600, 700];
+var result13 = donations.Skip(2).Take(4).Sum();
+Console.WriteLine($"Sum of donations after skipping first 2: {result13}");
+Console.ReadLine();
+
+//Task -14
+Console.WriteLine("Task -14");
+List<int> prices = [30, 75, 120, 45, 90, 150];
+var result14 = prices.GroupBy(p =>
+{
+    if (p <= 50) return "0-50";
+    else if (p <= 100) return "51-100";
+    else return "101-200";
+}).Where(g => g.Count() > 1);
+foreach (var group in result14)
+    Console.WriteLine($"{group.Key}: {group.Count()}");
+Console.ReadLine();
+
+//Task -15
+Console.WriteLine("Task -15");
+List<Employee> employees = [
+    new Employee { Department = "HR", Salary = 50000 },
+    new Employee { Department = "IT", Salary = 60000 },
+    new Employee { Department = "HR", Salary = 55000 },
+    new Employee { Department = "IT", Salary = 70000 },
+    new Employee { Department = "Sales", Salary = 45000 }
+];
+var result15 = employees.GroupBy(e => e.Department);
+Console.WriteLine("Top 2 salaries per department:");
+foreach (var group in result15)
+{
+    var topSalaries = group.OrderByDescending(e => e.Salary).Take(2);
+    Console.Write($"{group.Key}: ");
+    foreach (var s in topSalaries)
+        Console.Write($"{s.Salary} ");
 }
+Console.ReadLine();
+
+//Task -16
+Console.WriteLine("Task -16");
+List<CustomerOrder> orders1 = [
+    new CustomerOrder { Customer = "Alice", Amount = 100 },
+    new CustomerOrder { Customer = "Bob", Amount = 200 },
+    new CustomerOrder { Customer = "Alice", Amount = 150 },
+    new CustomerOrder { Customer = "Bob", Amount = 300 },
+    new CustomerOrder { Customer = "Alice", Amount = 200 },
+    new CustomerOrder { Customer = "Charlie", Amount = 50 }
+];
+var result16 = orders1.GroupBy(o => o.Customer).Where(g => g.Count() >= 3);
+foreach (var group in result16)
+{
+    var avg = group.Average(o => o.Amount);
+    Console.WriteLine($"{group.Key}: {avg}");
+}
+Console.ReadLine();
+
+//Task -17
+Console.WriteLine("Task -17");
+List<int> expenses = [50, 150, 200, 75, 300, 400, 90, 500];
+var result17 = expenses.Where(e => e > 100).Take(5).Sum();
+Console.WriteLine($"Sum of first 5 expenses > 100: {result17}");
+Console.ReadLine();
+
+//Task -18
+Console.WriteLine("Task -18");
+List<YearlySale> sales2 = [
+    new YearlySale { Year = 2021, Amount = 100 },
+    new YearlySale { Year = 2022, Amount = 200 },
+    new YearlySale { Year = 2021, Amount = 150 },
+    new YearlySale { Year = 2023, Amount = 300 },
+    new YearlySale { Year = 2022, Amount = 250 }
+];
+var result18 = sales2.GroupBy(s => s.Year)
+    .Select(g => new { Year = g.Key, MaxSale = g.Max(s => s.Amount) })
+    .OrderByDescending(x => x.MaxSale)
+    .Take(2);
+
+foreach (var item in result18)
+    Console.WriteLine($"{item.Year}: {item.MaxSale}");
+Console.ReadLine();
+
+//Task -19
+Console.WriteLine("Task -19");
+List<int> scores19 = [60, 65, 68, 75, 80, 85, 90];
+var result19 = scores19
+    .GroupBy(s => s > 70 ? "Above 70" : "Below 70");
+foreach (var group in result19)
+    Console.Write($"{group.Key}: {group.Count()}");
+Console.ReadLine();
+
+//Task -20
+Console.WriteLine("Task -20");
+List<int> prices2= [10, 20, 30, 40, 50, 60, 70, 80];
+var result20 = prices2
+    .Select((value, index) => new { value, index })
+    .GroupBy(x => x.index / 4)
+    .Take(2);
+foreach (var page in result20)
+{
+    var total = page.Sum(x => x.value);
+    Console.WriteLine(total);
+}
+Console.ReadLine();
