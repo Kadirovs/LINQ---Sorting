@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinQ-2", "LinQ-2\LinQ-2.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupBy", "GroupBy\GroupBy.csproj", "{BEA18BC9-3A51-46CC-B906-D119AD082A30}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtherMethods", "OtherMethods\OtherMethods.csproj", "{1417A719-F296-4BC7-B845-0B1E00254EE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{BEA18BC9-3A51-46CC-B906-D119AD082A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEA18BC9-3A51-46CC-B906-D119AD082A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEA18BC9-3A51-46CC-B906-D119AD082A30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1417A719-F296-4BC7-B845-0B1E00254EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1417A719-F296-4BC7-B845-0B1E00254EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1417A719-F296-4BC7-B845-0B1E00254EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1417A719-F296-4BC7-B845-0B1E00254EE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
