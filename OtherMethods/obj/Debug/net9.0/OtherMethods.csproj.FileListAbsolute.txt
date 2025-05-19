@@ -1,0 +1,15 @@
+C:\Users\kadir\Desktop\LinQ-2\OtherMethods\bin\Debug\net9.0\OtherMethods.exe
+C:\Users\kadir\Desktop\LinQ-2\OtherMethods\bin\Debug\net9.0\OtherMethods.deps.json
+C:\Users\kadir\Desktop\LinQ-2\OtherMethods\bin\Debug\net9.0\OtherMethods.runtimeconfig.json
+C:\Users\kadir\Desktop\LinQ-2\OtherMethods\bin\Debug\net9.0\OtherMethods.dll
+C:\Users\kadir\Desktop\LinQ-2\OtherMethods\bin\Debug\net9.0\OtherMethods.pdb
+C:\Users\kadir\Desktop\LinQ-2\OtherMethods\obj\Debug\net9.0\OtherMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kadir\Desktop\LinQ-2\OtherMethods\obj\Debug\net9.0\OtherMethods.AssemblyInfoInputs.cache
+C:\Users\kadir\Desktop\LinQ-2\OtherMethods\obj\Debug\net9.0\OtherMethods.AssemblyInfo.cs
+C:\Users\kadir\Desktop\LinQ-2\OtherMethods\obj\Debug\net9.0\OtherMethods.csproj.CoreCompileInputs.cache
+C:\Users\kadir\Desktop\LinQ-2\OtherMethods\obj\Debug\net9.0\OtherMethods.sourcelink.json
+C:\Users\kadir\Desktop\LinQ-2\OtherMethods\obj\Debug\net9.0\OtherMethods.dll
+C:\Users\kadir\Desktop\LinQ-2\OtherMethods\obj\Debug\net9.0\refint\OtherMethods.dll
+C:\Users\kadir\Desktop\LinQ-2\OtherMethods\obj\Debug\net9.0\OtherMethods.pdb
+C:\Users\kadir\Desktop\LinQ-2\OtherMethods\obj\Debug\net9.0\OtherMethods.genruntimeconfig.cache
+C:\Users\kadir\Desktop\LinQ-2\OtherMethods\obj\Debug\net9.0\ref\OtherMethods.dll

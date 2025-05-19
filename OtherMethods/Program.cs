@@ -83,12 +83,8 @@ foreach (var itemBook in result7)
 //Task -7
 Console.WriteLine("Task -7");
 List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
-double average2 = numbers.Average();
-bool Filter(int n) => n > average;
-var result8 = numbers.Where((Func<int, bool>)Filter).ToList();
-foreach (var item in result8)
-    Console.WriteLine(item);
-Console.ReadLine();
+
 
 //Task -8
-Console.WriteLine("");
+Console.WriteLine("Task -8");
+
