@@ -83,6 +83,7 @@ foreach (var itemBook in result7)
 //Task -7
 Console.WriteLine("Task -7");
 List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
+Console.WriteLine("Find the question that you stop.");
 
 
 //Task -8
